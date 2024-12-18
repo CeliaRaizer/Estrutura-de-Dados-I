@@ -152,7 +152,7 @@ main(){
 			scanf(" %[^\n]s", nome);
 			Elemento *elemento = buscar(&lista, nome);
 			if(elemento != NULL) {
-				printf("Medicamento encontrado: %s, Quantidade: %d, Preço: %.2f\n",elemento->medic.nome,elemento->medic.quant,elemento->medic.preco);
+				printf("Medicamento encontrado: %s, Quantidade: %d, Preco: %.2f\n",elemento->medic.nome,elemento->medic.quant,elemento->medic.preco);
 			} else {
 				printf("Medicamento nao encontrado.\n");
 			}
