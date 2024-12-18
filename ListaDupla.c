@@ -164,7 +164,7 @@ main(){
 			listarFinal(&lista);
 		} 
 		else {
-			printf("\nOpcao invalida!\n");
+			printf("\nOpcao invalida!!!\n");
 		}
 	}
 }
